@@ -4,10 +4,10 @@
     function start(){
     var number1 = Math.random() * 6 + 1;
     var numberRound1 = Math.floor(number1);
-    var displayResult1 = "/images/dice" + numberRound1 + ".png";
+    var displayResult1 = "/diceGame/images/dice" + numberRound1 + ".png";
     var number2 = Math.random() * 6 + 1;
     var numberRound2 = Math.floor(number2);
-    var displayResult2 = "/images/dice" + numberRound2 + ".png";
+    var displayResult2 = "/diceGame/images/dice" + numberRound2 + ".png";
     document.getElementById("img1").src = displayResult1;
     document.getElementById("img2").src = displayResult2;
     if(numberRound1 > numberRound2){
